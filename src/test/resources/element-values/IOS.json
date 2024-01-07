@@ -1,0 +1,110 @@
+[
+  {
+  "key": "wishlistTab2",
+  "iosValue": "**/XCUIElementTypeButton[`label == 'Wishlist'`]",
+  "iosType": "classChain"
+  },
+  {
+    "key": "wishlistTab",
+    "iosValue": "Wishlist",
+    "iosType": "id"
+  },
+  {
+    "key": "gamesTab",
+    "iosValue": "//XCUIElementTypeButton[@name='Games']",
+    "iosType": "xpath"
+  },  {
+  "key": "gameTitleWP",
+  "iosValue": "**/XCUIElementTypeStaticText[`label == 'Grand Theft Auto V'`]",
+  "iosType": "classChain"
+},
+  {
+    "key": "gameTitle",
+    "iosValue": "(//*[@name='gameTitle'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "searchbar",
+    "iosValue": "//XCUIElementTypeSearchField[@name='Search']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "verticalSort",
+    "iosValue": "**/XCUIElementTypeButton[`label == 'verticalNavBarRightItem'`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "horizontalSort",
+    "iosValue": "//XCUIElementTypeButton[@name='horizontalNavBarRightItem']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "wishlistButtonHP",
+    "iosType": "//*[@name='wishlistTabBarItem' and @type='XCUIElementTypeImage']",
+    "iosValue": "xpath"
+  },
+  {
+    "key": "gamePicture",
+    "iosType": "**/XCUIElementTypeImage[`name == 'gameImageView'`][1]",
+    "iosValue": "classChain"
+  },
+  {
+    "key": "slideBarPC",
+    "iosValue": "(//XCUIElementTypeStaticText[@name='PC'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "slideBarPlaystation",
+    "iosValue": "(//XCUIElementTypeStaticText[@name='PlayStation'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "slideBarWeb",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Web']",
+    "iosType": "xpath"
+  },
+  {
+    "key": "releaseDate",
+    "iosValue": "(//XCUIElementTypeStaticText[@name='Release Date:'])[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "backButton",
+    "iosValue": "Back",
+    "iosType": "id"
+  },
+  {
+    "key": "wishlistButtonDP",
+    "iosValue": "label == ,'wishlistTabBarItem'",
+    "iosType": ""
+  },
+  {
+    "key": "metricViewLabelDP",
+    "iosValue": "metacriticViewLabel",
+    "iosType": "id"
+  }
+,
+  {
+    "key": "metricViewLabelHP",
+    "iosValue": "(//XCUIElementTypeStaticText[@name='metacriticViewLabel'])[1]",
+    "iosType": "xpath"
+  }
+,
+  {
+    "key": "visitWebsite",
+    "iosValue": "Visit Website",
+    "iosType": "id"
+  }
+,
+  {
+    "key": "visitReddit",
+    "iosValue": "Visit Reddit",
+    "iosType": "id"
+  }
+,
+  {
+    "key": "noGameText",
+    "iosValue": "No game has been found",
+    "iosType": "id"
+  }
+]
